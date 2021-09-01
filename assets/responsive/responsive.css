@@ -1,0 +1,118 @@
+@media (min-width:1024px) {
+    #header>a>i.fa-bars {
+        display: none;
+    }
+}
+
+@media(min-width:740px) and (max-width:1023px) {
+    #header>a>i.fa-bars {
+        display: none;
+    }
+    button.js-buy-tickets {
+        height: 42px;
+    }
+    input.send {
+        height: 42px;
+    }
+    .ft1 {
+        margin-bottom: 30px;
+    }
+    .ft1 a i {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:739px) {
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li>a {
+        display: block;
+        padding: 0 24px;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #header>a>i.fa-search {
+        display: none;
+    }
+    #header {
+        overflow: hidden;
+    }
+    .text-content {
+        display: none;
+    }
+    #menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #nav .subnav {
+        position: unset;
+    }
+    #nav .subnav li {
+        background-color: rgba(0, 0, 0, 0.692);
+    }
+    #nav .subnav li:hover a {
+        color: #000;
+    }
+    #nav .subnav li a {
+        padding-left: 35px;
+        color: #fff;
+    }
+    button.js-buy-tickets {
+        height: 42px;
+    }
+    input.send {
+        height: 42px;
+    }
+    .ft1 {
+        margin-bottom: 30px;
+    }
+    .ft1 a i {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:600px) {
+    .membermobile {
+        width: 100%;
+    }
+    .ticketsmobile {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .ticketsmobile img {
+        width: 100%;
+    }
+    .contact {
+        display: initial;
+    }
+    .contact .contact-item {
+        width: 100%;
+        margin: 15px 0px;
+    }
+    .contact .contact-item .namemail {
+        display: block;
+    }
+    .contact .contact-item .namemail .inputhalf {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    button.js-buy-tickets {
+        width: 100%;
+    }
+    input.send {
+        width: 100%;
+    }
+    .ft1 {
+        margin-bottom: 30px;
+    }
+    .ft1 a i {
+        font-size: 40px;
+    }
+}
