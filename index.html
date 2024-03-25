@@ -35,7 +35,6 @@ background-color: rgba(0, 0, 0, .2);
 </head>
 
 <body>
-    <div style="color: white; font-weight: bold;">Ha Trang Cutee</div>
 
 <canvas id="heart"></canvas>
 
@@ -139,7 +138,7 @@ var pointsOrigin = [];
 
 var i;
 
-var dr = mobile ? 0.3 : 0.1;
+var dr = mobile ? 0.5 : 0.05;
 
 for (i = 0; i < Math.PI * 2; i += dr) pointsOrigin.push(scaleAndTranslate(heartPosition(i), 210, 13, 0, 0));
 
