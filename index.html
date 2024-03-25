@@ -90,7 +90,7 @@ loaded = true;
 
 var mobile = window.isDevice;
 
-var koef = mobile ? 0.5 : 1;
+var koef = mobile ? 0.5 : 5;
 
 var canvas = document.getElementById('heart');
 
@@ -138,7 +138,7 @@ var pointsOrigin = [];
 
 var i;
 
-var dr = mobile ? 0.5 : 0.05;
+var dr = mobile ? 0.3 : 0.1;
 
 for (i = 0; i < Math.PI * 2; i += dr) pointsOrigin.push(scaleAndTranslate(heartPosition(i), 210, 13, 0, 0));
 
